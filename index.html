@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <form>
+      <h1>Survey Form</h1>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required class="input-field">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required class="input-field">
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required class="input-field">
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required class="input-field">
+        <option value="">Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="non-binary">Non-binary</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" class="input-field"></textarea>
+      <input type="submit" value="Submit" class="submit-button">
+    </form>
+  </body>
+</html>
